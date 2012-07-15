@@ -16,8 +16,9 @@ public class FibonacciNumbers {
 		System.out.printf("in Fib(%d)\n",
 				FibonacciNumbers.fib(Integer.parseInt(args[0])));
 		System.out.printf("Fib end");
+		System.out.printf("おじいちゃん、お疲れ様");
 	}
-fatal error
+//fatal error
 	public static int fib(int n) {
 		if (n == 0) {
 			return 0;
