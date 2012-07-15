@@ -17,7 +17,7 @@ public class FibonacciNumbers {
 				FibonacciNumbers.fib(Integer.parseInt(args[0])));
 		System.out.printf("Fib end");
 	}
-//fatal error
+fatal error
 	public static int fib(int n) {
 		if (n == 0) {
 			return 0;
