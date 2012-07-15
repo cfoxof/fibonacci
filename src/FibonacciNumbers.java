@@ -12,7 +12,9 @@ public class FibonacciNumbers {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		System.out.printf("Fib start");
 		System.out.printf("in Fib(%d)\n",FibonacciNumbers.fib(Integer.parseInt(args[0])));
+		System.out.printf("Fib end");
 	}
 
 
